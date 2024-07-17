@@ -53,22 +53,22 @@ public class MainMenu {
                     getBooksByLanguage();
                     break;
                 case 6:
-                    System.out.println("Adios!");
-                    break;
-                case 7:
                     getStadistics();
                     break;
-                case 8:
+                case 7:
                     getTop10Books();
                     break;
-                case 9:
+                case 8:
                     getAuthorbyName();
+                    break;
+                case 9:
+                    System.out.println("Adios!");
                     break;
                 default:
                     System.out.println("Invalid option");
                     break;
             }
-        } while (option != 6);
+        } while (option != 9);
 
     }
 

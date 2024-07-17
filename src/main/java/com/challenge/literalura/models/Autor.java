@@ -70,13 +70,13 @@ public class Autor {
     @Override
     public String toString() {
         return """
-                \t\t~~~Autor~~~
+                \t\t---- Autor ----
                 
                 Nombre: %s
                 Año de nacimiento: %d
                 Año de fallecimiento: %d
                 
-                \t\t\t~~~
+                \t\t\t----
                 """.formatted(this.getNombre(), this.getAnioNacimiento(),
                 this.getAnioMuerte());
     }

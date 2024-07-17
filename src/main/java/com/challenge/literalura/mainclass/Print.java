@@ -4,7 +4,7 @@ public class Print {
 
     public void menu() {
         String menu = """
-                ******************************
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 \tBienvenido a LiterAlura
        
                 1. Buscar libro por título
@@ -12,13 +12,11 @@ public class Print {
                 3. Listar autores registrados
                 4. Listar autores vivos año
                 5. Listar libros por idioma
-                6. Salir
-                
-                ------------------------------
-                7. Ver estadisticas
-                8. Top 10 libros más descargados
-                9. Buscar autor por nombre
-                ******************************
+                6. Ver estadisticas
+                7. Top 10 libros más descargados
+                8. Buscar autor por nombre
+                9. Salir
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 Elige una opción:
                 """;
         System.out.println(menu);
@@ -26,7 +24,7 @@ public class Print {
 
     public void menuIdioma(){
         String msjIdioma = """
-                ---------------------
+                **********************
                 Idiomas disponibles:
                 
                   -en  (Inglés)
@@ -36,7 +34,7 @@ public class Print {
                   -it  (Italiano)
                   -pt  (Portugués)
                   -ja  (Japonés)
-                --------------------
+                *********************
                 """;
         System.out.println(msjIdioma);
     }

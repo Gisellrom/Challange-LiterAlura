@@ -70,14 +70,14 @@ public class Libro {
     @Override
     public String toString() {
         return """
-                \t\t~~~Libro~~~
+                \t\t----Libro----
                 
                 Titulo: %s
                 Idioma: %s
                 Autor: %s
                 Descargas: %s
                 
-                \t\t\t~~~
+                \t\t\t----
                 """.formatted(this.getTitulo(), this.getIdioma(),
                 this.getAutor().getNombre(), this.getNumeroDeDescargas());
     }
